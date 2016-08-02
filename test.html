@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Read Us</title>
+    <script type="text/javascript" src="jquery.js"></script>
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="bootstrap/dist/js/bootstrap.min.js" rel="stylesheet"></script>
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="layer/layer.js"></script>
+    <link href="nav.css" rel="stylesheet">
+    <script>
+    ! function() {
+        var t;
+        return t = window.driftt = window.drift = window.driftt || [], t.init ? void 0 : t.invoked ? void(window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
+            t.methods = ["identify", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+            t.factory = function(e) {
+                return function() {
+                    var n;
+                    return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+                };
+            }, t.methods.forEach(function(e) {
+                t[e] = t.factory(e);
+            }), t.load = function(t) {
+                var e, n, o, r;
+                e = 3e5, r = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
+                    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + r + "/" + t + ".js",
+                    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+            });
+    }();
+    drift.SNIPPET_VERSION = '0.2.0'
+    drift.load('igkv2ep6ixng')
+    </script>
+</head>
+<style>
+body {
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-linear-gradient(360deg, rgba(0, 40, 57, 0.5), rgba(166, 102, 22, 0.5));
+    text-align: center;
+    overflow-x: hidden;
+}
+
+h1 {
+    margin-top: 3em;
+    margin-bottom: 1em;
+    text-shadow: 1px 0 1px #8B4513, 0 1px 1px #8B4513, 0 -1px 1px #8B4513, -1px 0 3px #8B4513;
+}
+
+.p1 {
+    font-family: Georgia;
+    font-size: 20px;
+    color: rgba(204, 255, 255, 0.72);
+    position: relative;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {
+        top: 20%;
+        left: -200px;
+    }
+    to {
+        top: 20%;
+        left: 200px;
+    }
+}
+
+@keyframes mym {
+    from {
+        top: 60%;
+        left: -200px;
+    }
+    to {
+        top: 60%;
+        left: 200px;
+    }
+}
+
+.pp {
+    color: #fff;
+    text-shadow: 1px 0 1px #8B4513, 0 1px 1px #8B4513, 0 -1px 1px #8B4513, -1px 0 3px #8B4513;
+}
+
+.mainer_middle {
+    margin: 3em 0;
+}
+
+.bottom-community-bottom-left {
+    background: rgba(255, 255, 255, 0.31);
+    border-radius: 10px;
+    -webkit-border-radius: 30px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding: 3em 1em;
+    margin: 0em 2em;
+    text-align: center;
+    position: relative;
+}
+
+.david {
+    border-radius: 50%;
+    width: 100px;
+    height: 100%;
+}
+
+span {
+    text-align: left;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -webkit-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+
+.bounce {
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+}
+
+@-webkit-keyframes bounceIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.3);
+        transform: scale(.3);
+    }
+    50% {
+        opacity: 1;
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+    70% {
+        -webkit-transform: scale(.9);
+        transform: scale(.9);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.3);
+        -ms-transform: scale(.3);
+        transform: scale(.3);
+    }
+    50% {
+        opacity: 1;
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+    70% {
+        -webkit-transform: scale(.9);
+        -ms-transform: scale(.9);
+        transform: scale(.9);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.bounceIn {
+    -webkit-animation-name: bounceIn;
+    animation-name: bounceIn;
+}
+
+.relief {
+    font-size: 50px;
+}
+</style>
+
+<body>
+    <div class="content">
+        <h1 class="relief">
+                <span class="text"></span><span class="cursor">|</span>
+              </h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <p class="p1">
+                    Our team consists of two members, the theme of our website is a blog, we made a total of seven pages, with a lot of animation, we firmly believe that, as long as you work hard, it will effect, hope we can enjoy our work. Using color to add meaning only provides a visual indication, which will not be conveyed t Ensure that information denoted by Samon</p>
+                <button type="button" class="btn btn-default test1">Samon</button>
+            </div>
+        </div>
+        <div class="mainer_middle">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-5">
+                    <div class="col-md-12 wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: bounceIn;">
+                        <div class="bottom-community-bottom-left">
+                            <h2>Introduce</h2>
+                            <p class="pp">"My name is Zhang Lisa, you can call me lisa, I like good things, such as music, such as tourism, such as beautiful sites, the site, but also ask you to put in place!</p>
+                            <button type="button" class="btn btn-default test2">Lisa</button>
+                        </div>
+                        <img class="white" src="./images/white.png">
+                        <div class="bottom-community-left">
+                            <img class="david" src="images/lisa.jpg">
+                            <p class="back">Lisa Zhang</p>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="col-md-12 wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: bounceIn;">
+                        <div class="bottom-community-bottom-left">
+                            <h2>Introduce</h2>
+                            <p class="pp">I am a web front end of the beginner, I like music and movies, I also like food, I will study hard. Also hope that the exhibitions!</p>
+                            <button type="button" class="btn btn-default test3">Meng</button>
+                        </div>
+                        <img class="white" src="./images/white.png">
+                        <div class="bottom-community-left">
+                            <img class="david" src="images/meng.jpg">
+                            <p class="back">Chen Meng</p>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+        <script src="me.js"></script>
+</body>

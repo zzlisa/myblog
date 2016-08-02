@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Our life</title>
+    <script type="text/javascript" src="jquery.js"></script>
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/carousel.js"></script>
+    <script src="boke.js"></script>
+    <link href="main.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="layer/layer.js"></script>
+    <link href="nav.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<style>
+.starter {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.h44 {
+    padding-bottom: 10px;
+}
+
+.h22 {
+    margin: 20px 0;
+}
+
+.imge {
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+
+.text-body {
+    float: left;
+}
+
+p {
+    color: #bbb;
+}
+
+td,
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    color: #bbb;
+}
+
+{
+    margin-bottom: 10px;
+}
+
+.ppp {
+    color: #dab866;
+}
+
+img {
+    border-radius: 8%;
+    transition: all 0.3s;
+}
+
+img:hover {
+    transform: scale(1.2, 1.2);
+}
+
+#footer {
+    background: #222;
+    text-align: center;
+    padding: 40px 0;
+    color: #FFF;
+}
+
+.scroll-up a {
+    background-color: rgba(135, 135, 135, 0.5);
+    display: block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.scroll-up {
+    position: fixed;
+    z-index: 999;
+    bottom: 2em;
+    right: 2em;
+}
+</style>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <!--导航栏-->
+    <header id="home" class="navbar-fixed-top">
+        <div class="small-menu small-menu-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 col-sm-8 col-xs-5">
+                        <ul class="list-inline info-link">
+                            <li title="Language"><i class="fa fa-globe"></i><span class="hidden-xs">Language : English</span></li>
+                            <li title="Hot Line"><i class="fa fa-phone"></i><span class="hidden-xs">0371-8888 8888</span></li>
+                            <li title="Show Time"><i class="fa fa-clock-o"></i><span class="hidden-xs">Our Samon:  9:00-18:00</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5 col-sm-4 col-xs-7">
+                        <ul class="list-inline pull-right social-link">
+                            <li title="Email"><i class="fa fa-paper-plane"></i><span class="hidden-sm hidden-xs">1515@samon.com </span></li>
+                            <li title="Facebook"><i class="fa fa-facebook"></i></li>
+                            <li title="Google+"><i class="fa fa-google-plus"></i></li>
+                            <li title="Twitter"><i class="fa fa-twitter"></i></li>
+                            <li title="Dribbble"><i class="fa fa-dribbble"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <!-- menu 4 -->
+                <div class="navbar navbar-default default-menu menu-4" role="navigation">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-4" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand default-logo" href="test.html">Samon</a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="menu-4">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a class="scroll" href="index.html">Home</a></li>
+                                <li><a class="scroll" href="index_left.html">About us</a></li>
+                                <li><a class="scroll" href="index_right.html">Our life</a></li>
+                                <li class="active"><a class="scroll" href="element.html">Our element</a></li>
+                                <li><a class="scroll" href="login.html">Sign in</a></li>
+                                <li><a class="scroll" href="login_in.html">Sign up</a></li>
+                                <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search"></i></a>
+                                    <ul class="dropdown-menu list-search">
+                                        <li>
+                                            <form class="navbar-form navbar-left nav-search" role="search">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="Search">
+                                                    <i class="fa fa-search"></i>
+                                                </div>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- end menu -->
+            </div>
+        </div>
+    </header>
+    <!--内容-->
+    <div class="container">
+        <div class="starter">
+            <h1>Element</h1>
+        </div>
+        <div class="row">
+            <!--左侧内容-->
+            <div class="col-md-4">
+                <h4 class="h44">IMACE LIST</h4>
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <a href="#" class="media-left"><img src="images/slide_1.jpg" alt="占位符" width="80px" height="68px"></a>
+                    </div>
+                    <div class="col-md-9 col-sm-9 col-xs-9">
+                        <p>
+                            <font color="black">Lorem ipsum dolor sit amet,</font>
+                        </p>
+                        <p>
+                            <font color="black">consectetur adipisicing elit.</font>
+                        </p>
+                        <p class="p3">OCT. 12,2015</p>
+                    </div>
+                    <div class="col-md-1">
+                        <hr style="color:#000;width:280px;margin:10px auto"></hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <a href="#" class="media-left"><img src="images/slide_2.jpg" alt="占位符" width="80px" height="68px"></a>
+                    </div>
+                    <div class="col-md-9 col-sm-9 col-xs-9">
+                        <p>
+                            <font color="black">Lorem ipsum dolor sit amet,</font>
+                        </p>
+                        <p>
+                            <font color="black">consectetur adipisicing elit.</font>
+                        </p>
+                        <p class="p3">OCT. 12,2015</p>
+                    </div>
+                    <div class="col-md-1">
+                        <hr style="color:#000;width:280px;margin:10px auto"></hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <a href="#" class="media-left"><img src="images/slide_3.jpg" alt="占位符" width="80px" height="68px"></a>
+                    </div>
+                    <div class="col-md-9 col-sm-9 col-xs-9">
+                        <p>
+                            <font color="black">Lorem ipsum dolor sit amet,</font>
+                        </p>
+                        <p>
+                            <font color="black">consectetur adipisicing elit.</font>
+                        </p>
+                        <p class="p3">OCT. 12,2015</p>
+                    </div>
+                    <div class="col-md-1">
+                        <hr style="color:#000;width:280px;margin:10px auto"></hr>
+                    </div>
+                </div>
+                <br>
+                <h4 class="h44">PARAGRAPH</h4>
+                <p class="pp">
+                    Of view, the messenger of autumn came saw her simply pass play, the wind blowing through the breeze. Xiaocaohu were immediately put on new clothes golden, as if the carpet is a great shop to the distance.Look, see the fall of the messenger of sorghum also sorry it! Face up to red.
+                </p>
+                <br>
+                <h4 class="h44">CHECK&nbsp;LIST</h4>
+                <p class="pp">Lorem ipsum dolor sit amet,</p>
+                <p class="pp">Nostrum evebiet animi sint.</p>
+                <p class="pp">Dolore eligendi,porro ipsam.</p>
+                <p class="pp">Repudiandae voluptate dolorem voluptas.</p>
+                <p class="pp">Volupate cupiditate,est laborum</p>
+            </div>
+            <!---右侧内容--->
+            <div class="col-md-8">
+                <h1>Header Level 1</h1>
+                <p><b>Spondee have the advent of several autumn</b>, autumn's picture has been lightly started, the fall of the angels came gently, and she get rid of the hot summer, cool autumn wind brought about a refreshing, but also brought about by different colors The gift of new clothes to do all things. Autumn in the gloomy depression of the eyes is a symbol of autumn is in the eyes of the
+                    <mark>farmer's harvest</mark>, but in the eyes of love the autumn is a beautiful picture. - Title in mind Spondee have the advent of several autumn, autumn's picture has been lightly started, the fall of the angels came gently, and she get rid of the hot summer, cool autumn wind brought about a
+                    <mark>refreshing</mark>, but also brought about by different colors The gift of new clothes to do all things.</p>
+                <!---标题二与有序列表--->
+                <h2 class="h22">Header Level 2</h2>
+                <ol>
+                    <li>Lorem ipsum dolor sit amet，Laboriosam ad commodi</li>
+                    <li>Volupate cupiditate,est laborum</li>
+                </ol>
+                <!---引用------>
+                <blockquote>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Spondee have the advent of several autumn, autumn's picture has been lightly started, the fall of the angels came gently Look, see the fall of the messenger of sorghum also sorry it! Face up to red. </p>
+                </blockquote>
+                <!---标题3--->
+                <h3>Header Level 3</h3>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet，Laboriosam ad commodi</li>
+                    <li>Volupate cupiditate,est laborum</li>
+                </ul>
+                <br>
+                <!---代码块------>
+                <pre>
+			     #header h1 a{
+			     display:block;
+			     width:300px;
+			     height:80px;
+			     }
+			 </pre>
+                <!---按钮1--->
+                <h1>Buttons</h1>
+                <button type="button" class="btn btn-warning btn-lg active">I'AM A BUTTON</button>
+                &nbsp;&nbsp;
+                <button type="button" class="btn btn-default btn-lg active">BUTTON OUTLINE</button>
+                <br>
+                <br>
+                <!---表单输入框--->
+                <form class="form-inline">
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder="Name" style="width:48%"> &nbsp;&nbsp;&nbsp;
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" style="width:48%">
+                </form>
+                <br>
+                <select class="form-control">
+                    <option>--Gender--</option>
+                    <option>男</option>
+                    <option>女</option>
+                </select>
+                <br>
+                <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                <br>
+                <!--按钮---->
+                <button class="btn btn-warning" type="send">send</button>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input class="btn btn-default" type="reset" value="RESET">
+                <br>
+                <br>
+                <br>
+                <!--表格内容-->
+                <h3>Image alignment</h3>
+                <div class="one">
+                    <table width="98%" cellpadding="3" cellspacing="3" align="center">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="images/slide_3.jpg" alt="占位符" class="img-rounded" width="300px" height="200px" align="left" style="margin:15px 10px 5px 10px;padding:5px;">
+                                    <br> The messenger came to the garden in autumn, finger, chrysanthemum are competing to open up new clothes to wear, colorful, red, yellow, pink, and how beautiful and go through the dance-hyun, the United States and the world dress up more. Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies – such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (the contextual colors are only used to reinforce meaning that is already present in the text/markup), or is included through alternative means, such as additional text hidden with the .sr-only class.Spondee have the advent of several autumn, autumn's picture has been lightly started, the fall of the angels came gently, and she get rid of the hot summer, cool autumn wind brought about a refreshing, but also brought about by different colors The gift of new clothes to do all things. Autumn in the gloomy depression of the eyes is a symbol of autumn is in the eyes of the farmer's harvest, but in the eyes of love the autumn is a beautiful picture. - Title in mind Spondee have the advent of several autumn, autumn's picture has been lightly started, the fall of the angels came gently, and she get rid of the hot summer, cool autumn wind brought about a refreshing, but also brought about by different colors The gift of new clothes to do all things. Of view, the messenger of autumn came saw her simply pass play, the wind blowing through the breeze. Xiaocaohu were immediately put on new clothes golden, as if the carpet is a great shop to the distance. Welcomed the arrival of autumn messenger. The messenger of autumn light footsteps strode to the field. Well, the corn is full Jingying his white teeth smile envoy welcomed the arrival of Autumn. Look, see the fall of the messenger of sorghum also sorry it! Face up to red. Look fast, look at the rice beautiful new clothes themselves laughed. The messenger came to the orchard in autumn, the persimmon Ilex look put new clothes, red face . Like a red lantern. Look at the pear , like a doll in the tree, so cute.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="two">
+                    <table width="98%" cellpadding="3" cellspacing="3" align="center">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="images/slide_1.jpg" alt="占位符" class="img-rounded" width="300px" height="200px" align="right" style="margin:15px  0 5px 10px;padding:5px;">
+                                    <br> The messenger came to the garden in autumn, finger, chrysanthemum are competing to open up new clothes to wear, colorful, red, yellow, pink, and how beautiful and go through the dance-hyun, the United States and the world dress up more. Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies – such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (the contextual colors are only used to reinforce meaning that is already present in the text/markup), or is included through alternative means, such as additional text hidden with the .sr-only class.Spondee have the advent of several autumn, autumn's picture has been lightly started, the fall of the angels came gently, and she get rid of the hot summer, cool autumn wind brought about a refreshing, but also brought about by different colors The gift of new clothes to do all things. Autumn in the gloomy depression of the eyes is a symbol of autumn is in the eyes of the farmer's harvest, but in the eyes of love the autumn is a beautiful picture. - Title in mind Spondee have the advent of several autumn, autumn's picture has been lightly started, the fall of the angels came gently, and she get rid of the hot summer, cool autumn wind brought about a refreshing, but also brought about by different colors The gift of new clothes to do all things. Of view, the messenger of autumn came saw her simply pass play, the wind blowing through the breeze. Xiaocaohu were immediately put on new clothes golden, as if the carpet is a great shop to the distance. Welcomed the arrival of autumn messenger. The messenger of autumn light footsteps strode to the field. Well, the corn is full Jingying his white teeth smile envoy welcomed the arrival of Autumn. Look, see the fall of the messenger of sorghum also sorry it! Face up to red. Look fast, look at the rice beautiful new clothes themselves laughed. The messenger came to the orchard in autumn, the persimmon Ilex look put new clothes, red face . Like a red lantern. Look at the pear , like a doll in the tree, so cute.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--尾部---->
+    <br>
+    <br>
+    <hr>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1><font color = "#aaa">B o o s t e r</font></h1>
+                <p class="pp">Spondee have the advent of several autumn, autumn's started, the fall of
+                    <br>the angels came gently, and she get rid of the hot summer, cool autumn wind brought about a refreshing,
+                </p>
+                <br>
+                <i class="fa fa-windows fa-2x" aria-hidden="true"></i>&nbsp;
+                <i class="fa fa-folder-open fa-2x" aria-hidden="true"></i>&nbsp;
+                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>&nbsp;
+                <i class="fa fa-css3 fa-2x" aria-hidden="true"></i>
+            </div>
+            <div class="col-md-2" style="margin:40px 0">
+                <p class="lead">COMPANY</p>
+                <p class="ppp">About</p>
+                <p class="ppp">Contact</p>
+                <p class="ppp">News</p>
+                <p class="ppp">Support</p>
+                <p class="ppp">Career</p>
+            </div>
+            <div class="col-md-2" style="margin:40px 0">
+                <p class="lead">FEATURES</p>
+                <p class="ppp"><i class="fa fa-check-circle-o" aria-hidden="true"></i>&nbsp;lorem ipsum dolor</p>
+                <p class="ppp"><i class="fa fa-check-circle-o" aria-hidden="true"></i>&nbsp;Ipsum molitia dolore.</p>
+                <p class="ppp"><i class="fa fa-check-circle-o" aria-hidden="true"></i>&nbsp;Eius similique in</p>
+                <p class="ppp"><i class="fa fa-check-circle-o" aria-hidden="true"></i>&nbsp;Aspernatur similique nesciunt</p>
+                <p class="ppp"><i class="fa fa-check-circle-o" aria-hidden="true"></i>&nbsp;Laboriosam ad commodi</p>
+            </div>
+            <div class="col-md-2" style="margin:40px 0">
+                <p class="lead">PRODUCTS</p>
+                <p class="ppp"><i class="fa fa-check-circle-o" aria-hidden="true"></i>&nbsp;lorem ipsum dolor</p>
+                <p class="ppp"><i class="fa fa-check-circle-o" aria-hidden="true"></i>&nbsp;Ipsum molitia dolore.</p>
+                <p class="ppp"><i class="fa fa-check-circle-o" aria-hidden="true"></i>&nbsp;Eius similique in</p>
+                <p class="ppp"><i class="fa fa-check-circle-o" aria-hidden="true"></i>&nbsp;Aspernatur similique nesciunt</p>
+                <p class="ppp"><i class="fa fa-check-circle-o" aria-hidden="true"></i>&nbsp;Laboriosam ad commodi</p>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="scroll-up">
+            <a href="#myPage" title="To Top">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="heart">
+                        Our blog's name is Samon!
+                    </p>
+                    <p class="copyright">
+                        © 2016 made by: <a href="https://unsplash.com/">Lisa</a> && <a href="http://zoomwalls.com/">Chenmeng</a>
+                    </p>
+                </div>
+            </div>
+            <!-- .row -->
+        </div>
+        <!-- .container -->
+    </footer>
+    <script src="boke.js"></script>
+</body>
+
+</html>

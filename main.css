@@ -1,0 +1,61 @@
+body{
+    font-family: "Microsoft Yahei";
+}
+.nav-tabs li a {
+    color: #777;
+}
+.aa{
+    margin-top: 80px;
+}
+.service {
+    color:#555;
+    font-size: 20px;
+}
+.from{
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+p{
+    text-indent: 2em;
+}
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #f4511e;
+}
+
+.carousel-indicators li {
+    border-color: #f4511e;
+}
+
+.carousel-indicators li.active {
+    background-color: #f4511e;
+}
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+.footer{
+    color: #fff;
+    font-size: 18px;
+    /*font-weight: bold;*/
+    padding-top: 15px;
+    height: 90px;
+    text-align: center;
+    background-color: #333;
+}
+img:hover{
+    transform:scale(1.2,1.2);
+}
+
+.jumbotron{
+    margin-top: 80px;
+}
+
+.form-horizontal{
+    margin-top: 5%;
+}
+
